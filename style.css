@@ -12,7 +12,7 @@ body {
 div {
   padding: 0px 0px;
   text-align: center;
-  font-size: 5%;
+  font-size: 70%;
 }
 
 /*　トップページ　*/
@@ -22,7 +22,7 @@ div {
   background-position: center;
   height: 2500px;
   color: #000000;
-  padding: 200px;
+  padding: 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
