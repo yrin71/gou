@@ -2,6 +2,15 @@
 
 font-family： 'M PLUS Rounded 1c'、sans-serif;
   /* ページ全体の設定　*/
+
+html{
+  height: auto;
+}
+
+h1{
+   font-size: 1.3em;
+}
+
 body {
     margin: 0;
     font-family: "メイリオ","Meiryo","M+ 1p",;
@@ -9,10 +18,14 @@ body {
 }
 
 /* 「コンテンツ」ブロック */
-div {
+.container {
   padding: 0px 0px;
   text-align: center;
-  font-size: 70%;
+  font-size: 1.3em;
+}
+
+ul {
+  list-style: none;
 }
 
 /*　トップページ　*/
@@ -20,7 +33,7 @@ div {
   background-image: url(img/map_shitaji.png);
   background-size: cover;
   background-position: center;
-  height: 2500px;
+  height: 3800px;
   color: #000000;
   padding: 20px;
   box-sizing: border-box;
@@ -31,14 +44,18 @@ div {
 }
 
 .hero h1 {
-  font-size: 25px;
+  font-size: 28px;
   text-align: center;
+}
+
+ul{
+  text-align: left;
 }
 
 /* 白枠 */
 article {
   background: rgba(255,255,255,0.7);
-  padding: 26px;
+  padding: 25px;
   border-radius: 30px;
 }
 
