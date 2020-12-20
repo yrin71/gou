@@ -3,9 +3,7 @@
 font-family： 'M PLUS Rounded 1c'、sans-serif;
   /* ページ全体の設定　*/
 
-html{
-  height: auto;
-}
+
 
 h1{
    font-size: 1.3em;
@@ -19,25 +17,25 @@ body {
 
 /* 「コンテンツ」ブロック */
 .container {
-  padding: 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.6em;
+  width: 500px;
 }
 
 ul {
   list-style: none;
 }
 
-/*　トップページ　*/
 .hero {
   background-image: url(img/map_shitaji.png);
   background-size: cover;
   background-position: center;
-  height: 3800px;
+  height: 3650px;
   color: #000000;
-  padding: 20px;
+  padding: 0px 60px 0px 60px;
   box-sizing: border-box;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -54,10 +52,22 @@ ul{
 
 /* 白枠 */
 article {
-  background: rgba(255,255,255,0.7);
-  padding: 25px;
-  border-radius: 30px;
+  background: rgba(255,255,255,0.6);
+  padding: 30px;
+  border-radius: 45px;
 }
 
 /* ====pc版===== */
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+  .container {
+  padding: 0px 0px;
+  text-align: center;
+  font-size: 1.3em;
+}
+  
+.hero {
+  background-image: url(img/map_shitaji.png);
+  height: 3200px;
+  padding: 20px;
+  display: flex;
+}
