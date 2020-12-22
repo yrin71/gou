@@ -27,7 +27,7 @@ ul {
   list-style: none;
 }
 
-.hero {
+.main {
   background-image: url(img/map_shitaji.png);
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@ ul {
   flex-direction: column;
 }
 
-.hero h1 {
+.main h1 {
   font-size: 28px;
   text-align: center;
 }
@@ -65,7 +65,7 @@ article {
   font-size: 1.3em;
 }
   
-.hero {
+.main {
   background-image: url(img/map_shitaji.png);
   height: 3200px;
   padding: 20px;
